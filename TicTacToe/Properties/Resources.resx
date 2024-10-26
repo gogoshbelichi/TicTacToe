@@ -121,4 +121,7 @@
   <data name="TTTLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TTTLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PlayGround" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlayGround.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
