@@ -29,18 +29,106 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameForm));
-            checkBox1 = new CheckBox();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            button6 = new Button();
+            button7 = new Button();
+            button8 = new Button();
+            button9 = new Button();
             SuspendLayout();
             // 
-            // checkBox1
+            // button1
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(50, 86);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(83, 19);
-            checkBox1.TabIndex = 0;
-            checkBox1.Text = "checkBox1";
-            checkBox1.UseVisualStyleBackColor = true;
+            button1.Font = new Font("Segoe UI", 99.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.Location = new Point(-1, -1);
+            button1.Name = "button1";
+            button1.Size = new Size(194, 186);
+            button1.TabIndex = 0;
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // button2
+            // 
+            button2.Font = new Font("Segoe UI", 99.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.Location = new Point(199, -1);
+            button2.Name = "button2";
+            button2.Size = new Size(188, 186);
+            button2.TabIndex = 1;
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button1_Click;
+            // 
+            // button3
+            // 
+            button3.Font = new Font("Segoe UI", 99.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.Location = new Point(393, -1);
+            button3.Name = "button3";
+            button3.Size = new Size(192, 186);
+            button3.TabIndex = 2;
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button1_Click;
+            // 
+            // button4
+            // 
+            button4.Font = new Font("Segoe UI", 99.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button4.Location = new Point(-1, 191);
+            button4.Name = "button4";
+            button4.Size = new Size(194, 182);
+            button4.TabIndex = 3;
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button1_Click;
+            // 
+            // button5
+            // 
+            button5.Font = new Font("Segoe UI", 99.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button5.Location = new Point(199, 191);
+            button5.Name = "button5";
+            button5.Size = new Size(188, 182);
+            button5.TabIndex = 4;
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button1_Click;
+            // 
+            // button6
+            // 
+            button6.Font = new Font("Segoe UI", 99.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button6.Location = new Point(393, 191);
+            button6.Name = "button6";
+            button6.Size = new Size(192, 182);
+            button6.TabIndex = 5;
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button1_Click;
+            // 
+            // button7
+            // 
+            button7.Font = new Font("Segoe UI", 99.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button7.Location = new Point(-1, 379);
+            button7.Name = "button7";
+            button7.Size = new Size(194, 183);
+            button7.TabIndex = 6;
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button1_Click;
+            // 
+            // button8
+            // 
+            button8.Font = new Font("Segoe UI", 99.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button8.Location = new Point(199, 379);
+            button8.Name = "button8";
+            button8.Size = new Size(188, 183);
+            button8.TabIndex = 7;
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button1_Click;
+            // 
+            // button9
+            // 
+            button9.Font = new Font("Segoe UI", 99.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button9.Location = new Point(393, 379);
+            button9.Name = "button9";
+            button9.Size = new Size(192, 183);
+            button9.TabIndex = 8;
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button1_Click;
             // 
             // GameForm
             // 
@@ -49,20 +137,34 @@
             BackgroundImage = Properties.Resources.PlayGround;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(584, 561);
-            Controls.Add(checkBox1);
+            Controls.Add(button9);
+            Controls.Add(button8);
+            Controls.Add(button7);
+            Controls.Add(button6);
+            Controls.Add(button5);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "GameForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form2";
-            Load += Form2_Load;
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private CheckBox checkBox1;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Button button4;
+        private Button button5;
+        private Button button6;
+        private Button button7;
+        private Button button8;
+        private Button button9;
     }
 }
