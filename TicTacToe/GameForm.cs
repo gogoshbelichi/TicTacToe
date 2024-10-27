@@ -13,12 +13,12 @@ namespace TicTacToe
 {
     public partial class GameForm : Form
     {
-        private int player;
-        private int steps;
+        private int player; 
+        private int steps; 
         public GameForm()
         {
             InitializeComponent();
-            player = 1;
+            player = 1; 
             steps = 0;
         }
 
@@ -44,60 +44,60 @@ namespace TicTacToe
         {
             if (button1.Text == button2.Text && button2.Text == button3.Text && button1.Text != "" && button2.Text != "" && button3.Text != "")
             {
+                MessageBox.Show(button1.Text + "'s victory");
                 this.Hide();
                 mainMenu mainmenu = new();
                 mainmenu.Show();
-                MessageBox.Show(button1.Text + "'s victory");
 
             }
             if (button4.Text == button5.Text && button5.Text == button6.Text && button4.Text != "" && button5.Text != "" && button6.Text != "")
             {
+                MessageBox.Show(button5.Text + "'s victory");
                 this.Hide();
                 mainMenu mainmenu = new();
                 mainmenu.Show();
-                MessageBox.Show(button5.Text + "'s victory");
             }
             if (button7.Text == button8.Text && button8.Text == button9.Text && button7.Text != "" && button8.Text != "" && button9.Text != "")
             {
+                MessageBox.Show(button7.Text + "'s victory");
                 this.Hide();
                 mainMenu mainmenu = new();
                 mainmenu.Show();
-                MessageBox.Show(button7.Text + "'s victory");
             }
             if (button1.Text == button4.Text && button4.Text == button7.Text && button1.Text != "" && button4.Text != "" && button7.Text != "")
             {
+                MessageBox.Show(button7.Text + "'s victory");
                 this.Hide();
                 mainMenu mainmenu = new();
                 mainmenu.Show();
-                MessageBox.Show(button7.Text + "'s victory");
             }
             if (button2.Text == button5.Text && button5.Text == button8.Text && button2.Text != "" && button5.Text != "" && button8.Text != "")
             {
+                MessageBox.Show(button2.Text + "'s victory");
                 this.Hide();
                 mainMenu mainmenu = new();
                 mainmenu.Show();
-                MessageBox.Show(button7.Text + "'s victory");
             }
             if (button3.Text == button6.Text && button6.Text == button9.Text && button3.Text != "" && button6.Text != "" && button9.Text != "")
             {
+                MessageBox.Show(button3.Text + "'s victory");
                 this.Hide();
                 mainMenu mainmenu = new();
                 mainmenu.Show();
-                MessageBox.Show(button9.Text + "'s victory");
             }
             if (button1.Text == button5.Text && button5.Text == button9.Text && button1.Text != "" && button5.Text != "" && button9.Text != "")
             {
+                MessageBox.Show(button9.Text + "'s victory");
                 this.Hide();
                 mainMenu mainmenu = new();
                 mainmenu.Show();
-                MessageBox.Show(button9.Text + "'s victory");
             }
             if (button3.Text == button5.Text && button5.Text == button7.Text && button3.Text != "" && button5.Text != "" && button7.Text != "")
             {
+                MessageBox.Show(button7.Text + "'s victory");
                 this.Hide();
                 mainMenu mainmenu = new();
                 mainmenu.Show();
-                MessageBox.Show(button7.Text + "'s victory");
             }
             if (steps == 9)
             {
