@@ -136,7 +136,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.PlayGround;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(584, 561);
+            ClientSize = new Size(584, 563);
             Controls.Add(button9);
             Controls.Add(button8);
             Controls.Add(button7);
